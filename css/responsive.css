@@ -1,0 +1,202 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (min-width: 320px) and (max-width:575px){
+     .navbar-nav .nav-item .nav-link{
+          background-color: white;
+          text-align: center;
+     }
+
+     .banner-text{
+          text-align: center;
+          top: 0;left: 0;
+          z-index: -1;
+     }
+
+     .banner-text{
+          text-align: center;
+          top: 10%;
+     }
+
+     .banner-text h1{
+          font-size: 25px;
+     }
+
+     .heading{
+          margin: 30px 0 10px;
+     }
+
+     .heading h4{
+          font-size: 35px;
+          line-height: 50px;
+     }
+
+     #about{
+          margin-top: -10px;
+     }
+
+     .team{
+          margin-bottom: 50px;
+     }
+
+     #work p{
+          margin: 0 20px;
+          text-align: justify;
+     }
+
+     .gallery-img{
+          margin: 0 20px;
+     }
+
+     #service p{
+          margin: 0 20px;
+          text-align: justify;
+     }
+
+     .quote{
+          display: block;
+          text-align: center;
+     }
+
+     .form {
+          margin: 70px 15px;
+     }
+
+     .footer-heading h4{
+          margin-top: 40px;
+     }
+
+     .footer2 input {
+          padding: 0.5rem 2rem;}
+ 
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767px) { 
+     .navbar-nav .nav-item .nav-link{
+          background-color: white;
+          text-align: center;
+          border-bottom: 1px solid rgb(167, 167, 167);
+     }
+
+     .bg-color{
+          background-color: white;
+     }
+
+     .banner-text{
+          text-align: center;
+          right: 1%;
+          top: 34%;
+     }
+
+     .banner-text h1{
+          font-size: 50px;
+     }
+
+     #banner{
+          padding: 200px 0 ;
+          position: relative;
+     }
+
+     .banner-img{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+     }
+
+     .heading{
+          margin: 60px 0px 50px;
+     }
+
+     .heading h4{
+          
+          line-height: 60px;
+     }
+
+     .team{
+          margin-bottom: 50px;
+     }
+
+     #work p{
+          margin: 0 0 30px;
+          font-size: 25px;
+     }
+
+     #service p{
+          margin: 0 40px;
+          font-size: 24px;
+     }
+
+     .quote h4{
+          font-size: 24px;
+     }
+
+     .map{
+          display: none;
+     }
+
+     .form{
+          margin: 40px 0px;
+     }
+
+     .f-contact{
+          margin-top: 50px;
+     }
+
+     .bg-color{
+          background-color: white;
+     }
+     
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .navbar-nav .nav-item .nav-link{
+          background-color: white;
+          text-align: center;
+          border-bottom: 1px solid rgb(167, 167, 167);
+     }
+
+     .banner-text h1{
+          font-size: 7vw;
+     }
+
+     .heading{
+          margin: 0 0px 30px;
+     }
+
+     #work p{
+          margin: 0 0 30px;
+     }
+
+     #service p{
+          margin: 0 0 30px;
+     }
+
+     .form{
+          margin: 40px 0px;
+     }
+
+     .f-contact{
+          margin-top: 50px;
+     }
+
+     .footer3 p{
+          margin: 0 200px;
+     }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up */
+@media (min-width: 1400px) { 
+
+ }
